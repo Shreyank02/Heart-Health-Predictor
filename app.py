@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-model = pickle.load(open(r'Heart_Disease_predictor\model.pkl','rb'))
+model = pickle.load(open('model.pkl','rb'))
 
 sex = ['Male','Female']
 
